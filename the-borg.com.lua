@@ -3,6 +3,7 @@
 
 caa("", "letsencrypt.org", "issue")
 
+-- A Records
 a(_a, "72.172.221.120")
 a("kegbot", "64.251.131.69")
 a("mail", "64.251.131.65")
@@ -34,14 +35,17 @@ a("64-251-131-92-static", "64.251.131.92")
 a("64-251-131-93-static", "64.251.131.93")
 a("64-251-131-94-static", "64.251.131.94")
 
+-- MX Records
 mx(_a, "mail.the-borg.com", 10)
 
+-- CNAME Records
 cname("borg", "the-borg.com")
 cname("mailman", "mail.the-borg.com")
 cname("webmail", "remote.the-borg.com")
 cname("xpc-router", "the-borg.com")
 cname("router", "the-borg.com")
 
+-- TXT Records
 txt(_a, "v=spf1 mx ~all")
 txt(_a, "5ss5st7tlnoafmfnrnetfi5dfs")
 txt("_acme-challenge", "ogKf2A5SxrL0Ho8iZRO9pW-sLDvVJlziTgJinrQemFk")
