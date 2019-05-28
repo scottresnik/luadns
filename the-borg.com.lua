@@ -37,6 +37,7 @@ cname("borg", "the-borg.com")
 cname("mailman", "mail.the-borg.com")
 cname("webmail", "remote.the-borg.com")
 cname("xpc-router", "the-borg.com")
+cname("router", "the-borg.com")
 
 txt(_a, "v=spf1 mx ~all")
 txt(_a, "5ss5st7tlnoafmfnrnetfi5dfs")
