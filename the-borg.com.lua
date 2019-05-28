@@ -1,3 +1,6 @@
+-- File: the-borg.com.lua
+-- _a = "the-borg.com"
+
 caa("", "letsencrypt.org", "issue")
 
 a(_a, "72.172.221.120")
